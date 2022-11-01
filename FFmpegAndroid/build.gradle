@@ -7,7 +7,6 @@ version = VERSION_NAME
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion as Integer
-    buildToolsVersion rootProject.ext.buildToolsVersion as String
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion as Integer
